@@ -13,15 +13,25 @@ body {
 
 .background{
     overflow-x: hidden;
-    background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bg.jpg"); /* The image used */
+    background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("1.jpg"); /* The image used */
         background-color: #dd9696; /* Used if the image is unavailable */
         height: 400px; /* You must set a specified height */
         background-position: center center fixed; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
        position: relative;
+       
+
+}
+.background::-webkit-scrollbar {
+    display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.background{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 
 .background .bme1{
@@ -52,6 +62,47 @@ body {
     padding: 0 0;
 }
 
+.parallax1{
+     /* The image used */
+     background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("kuet.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("durbar.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.parallax3{
+    /* The image used */
+    background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("dsw.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
 
 .welcome{
         overflow-x: hidden;
@@ -230,9 +281,81 @@ input.submitbutton.ripplelink {
 }
 
 .main{
-    background: #a2b8c7ad;  /* fallback for old browsers */
-background: linear-gradient(to right, #d2dce0cc, #87e4b88a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #dce9f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d2d3d8c7, #ced1d3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fdfdff9a, #b9f1c377); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
 }
+
+.arrow {
+    border: solid rgb(6, 147, 241);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+    position:absolute;
+    left:120px;
+    
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+@media only screen and (orientation: landscape) {
+    .background{
+        overflow-x: hidden;
+        background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("1.jpg"); /* The image used */
+            background-color: #dd9696; /* Used if the image is unavailable */
+            height: 800px; /* You must set a specified height */
+            background-position: center center fixed; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+           position: relative;
+    }
+    
+    .bme2{
+        position: absolute;
+        
+        box-sizing: content;
+        top:150px;
+        text-align:center;
+        justify-content: center;
+        
+        font-family: serif;
+        color:white;
+        margin: 0 0;
+        padding: 10 10;
+    }
+    
+    .story p{
+        text-align:justify;
+        font-family:sans-serif;
+        color:rgb(63, 55, 55);
+        text-decoration: rgb(247, 248, 248);
+        font-size:28px;
+        
+    }
+    
+
+    
+  }
 

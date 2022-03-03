@@ -1,0 +1,85 @@
+.parallax1{
+	/* The image used */
+	background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bme1.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.parallax2{
+	/* The image used */
+	background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bm2.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.parallax3{
+	/* The image used */
+	background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bme3.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.parallax4{
+	/* The image used */
+	background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bme4.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.parallax5{
+	/* The image used */
+	background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bme5.jpg");
+
+ /* Set a specific height */
+ min-height: 500px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.card{
+	border: 6px solid red;
+}
+
+@media only screen and (orientation: landscape) {
+
+	.cor1{
+           font-size: 50px;
+	}
+	
+	.cor2{
+		font-size: 50px;
+ }
+}
+
