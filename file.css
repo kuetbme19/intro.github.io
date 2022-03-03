@@ -1,3 +1,10 @@
+
+body{
+	overflow-x: hidden;
+}
+
+
+
 .parallax1{
 	/* The image used */
 	background-image: linear-gradient(rgba(59, 58, 58, 0.527),rgba(0, 0, 0, 0.5)) , url("bme1.jpg");
@@ -9,7 +16,7 @@
  background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
- background-size: contain;
+ background-size: cover;
 }
 
 .parallax2{
